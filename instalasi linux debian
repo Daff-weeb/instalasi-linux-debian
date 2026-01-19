@@ -1,0 +1,60 @@
+1.Siapkan Bahan
+File ISO Debian
+Flashdisk ≥ 8 GB
+Aplikasi Rufus / BalenaEtcher
+PC / Laptop
+2. Buat Bootable Flashdisk
+Buka Rufus
+Pilih Flashdisk
+Pilih ISO Debian
+Partition scheme:
+GPT (UEFI) atau
+MBR (Legacy)
+Klik Start
+3. Atur Boot di BIOS
+Restart PC
+Tekan F2 / F12 / DEL / ESC
+Ubah Boot Priority → USB
+Save & Exit
+4. Mulai Instalasi Debian
+Saat menu muncul, pilih:
+Graphical Install (disarankan) atau
+Install (mode teks)
+5. Pilih Bahasa & Lokasi
+Language: English / Indonesian
+Location: Indonesia
+Keyboard: English (US)
+6. Konfigurasi Jaringan
+DHCP otomatis → Yes
+Hostname: debian
+Domain name: kosong (boleh)
+7. Set Password
+Root password
+Buat user baru
+Password user
+8. Partisi Disk
+Pilihan paling mudah:
+Guided – use entire disk
+All files in one partition
+Pilih Yes untuk write changes
+9. Pilih Mirror Debian
+Country: Indonesia
+Mirror: default
+Proxy: kosong
+10. Package Manager
+Pilih Yes (install package tambahan)
+11. Pilih Desktop Environment
+Centang:
+✔ Debian desktop environment
+✔ GNOME (default) / XFCE (ringan)
+✔ Standard system utilities
+12. Install GRUB
+Pilih Yes
+Pilih disk utama (biasanya /dev/sda)
+13. Selesai
+Cabut flashdisk
+Restart
+Login ke Debian 🎉
+Login
+Username: (yang dibuat)
+Password: (yang dibuat)
